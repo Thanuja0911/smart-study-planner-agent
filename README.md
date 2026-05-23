@@ -16,7 +16,15 @@ Most AI study tools take your topic and return a generic plan in one shot. This 
 
 The Smart Study Planner uses a **multi-step AI agent** that reasons through your curriculum the way an expert tutor would by analyzing scope, breaking the topic into ordered subtopics, scheduling them across your available days, finding real YouTube resources, and writing quiz questions for each session. Every decision happens **autonomously**, step by step, and streams to your screen as it happens.
 
-You don't get a response. This is not a Workflow where we code the flow. Agent will decide what to do. You watch an agent work. 
+You don't get a response. This is not a Workflow where we code the flow. Agent will decide what to do. You watch an agent work.
+
+```
+This is a guided agent, the system prompt establishes a recommended sequence,but Claude autonomously executes it,
+adapts to tool outputs, handles failures gracefully,and makes decisions your code never prescribes
+(example: it made a parallel tool execution across days when it's not mentioned in the code).
+The line between a guided agent and a workflow is whether the model or our code controls the execution path.
+Here, the model does.
+```
 
 ---
 
