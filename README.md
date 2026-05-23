@@ -46,16 +46,6 @@ This is the core experience **seeing AI reason in real time**, not just produce 
 
 The same topic produces genuinely different curricula depending on your level. Here is a real comparison both generated for **Machine Learning, Intermediate, 1 week**:
 
-| Day | First Generation | After Regenerate |
-|-----|-----------------|-----------------|
-| 1 | Supervised Learning & Core Algorithms | **Bias-Variance Tradeoff & Model Diagnostics** |
-| 2 | Model Evaluation & Validation Techniques | Ensemble Methods: Bagging, Boosting & Stacking |
-| 3 | Feature Engineering & Data Preprocessing | Feature Engineering & Dimensionality Reduction (PCA, LDA) |
-| 4 | Unsupervised Learning & Clustering | **Support Vector Machines & Kernel Methods** |
-| 5 | Ensemble Methods & Boosting | **Probabilistic Models: Naive Bayes, GMMs & EM Algorithm** |
-| 6 | Neural Networks & Deep Learning Fundamentals | **Neural Network Internals: Backprop & Optimization Landscape** |
-| 7 | Model Deployment & MLOps Basics | End-to-End ML Pipeline: Deployment, Monitoring & Drift Detection |
-
 The regenerated plan starts deeper (Bias-Variance before algorithms), covers SVMs and probabilistic models the first plan skipped, and frames neural networks at the internals level rather than the fundamentals level. Same inputs, meaningfully different curriculum.
 
 First Generation:
